@@ -4,7 +4,7 @@
 **Short:** Employee timing compliance + sales/profit analysis and dashboard.
 
 ## Overview
-This Excel project checks employee compliance with benchmark working hours and analyzes sales/profit behaviour across products, customers, and cities. Final deliverable: an Excel dashboard and a short explanatory video.
+This Excel project checks employee compliance with benchmark working hours and analyzes sales/profit behaviour across products, customers, and cities. Final deliverable: an interactive Excel dashboard.
 
 ## Datasets (included)
 - `workers_timing.csv` — entry/exit times per employee (columns: employee_id, date, entry_time, exit_time)
@@ -13,8 +13,8 @@ This Excel project checks employee compliance with benchmark working hours and a
 
 ## Files
 - `AquaFizz_Dashboard.xlsx` — the interactive Excel workbook + dashboards.
+- `Workers Timing_final.xlsx`- the dataset with checked employee compliance in accordence with benchmark hours
 - `data/` — CSV versions of the above data for reproducibility.
-- `report_video.mp4` — short explanatory video walking through the dashboard (optional).
 - `README.md`
 
 ## What I did
@@ -22,7 +22,7 @@ This Excel project checks employee compliance with benchmark working hours and a
 - Calculated profit per sale and identified highest profit-margin beverages.
 - Top customers and cities by revenue.
 - Monthly profit trends & visualization.
-- Final dashboard exported in Excel, plus a video explanation.
+- Final dashboard exported in Excel.
 
 ## How to view
 - Open `AquaFizz_Dashboard.xlsx` in Excel (2016+ recommended).
