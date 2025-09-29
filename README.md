@@ -1,2 +1,33 @@
-# AquaFizz-Employee-Compliance-Sales-Analysis-Excel-
-The main goal of this project is to analyze employee working hours and customer order data to ensure compliance with AquaFizz’s policies and optimize sales. The analysis involves examining data on working hours for compliance and generating business insights from customer and sales data.
+# AquaFizz — Employee Compliance & Sales Analysis
+
+**Type:** Excel dashboard & analysis  
+**Short:** Employee timing compliance + sales/profit analysis and dashboard.
+
+## Overview
+This Excel project checks employee compliance with benchmark working hours and analyzes sales/profit behaviour across products, customers, and cities. Final deliverable: an Excel dashboard and a short explanatory video.
+
+## Datasets (included)
+- `workers_timing.csv` — entry/exit times per employee (columns: employee_id, date, entry_time, exit_time)
+- `orders.csv` — (order_id, customer_id, beverage, cost_price, selling_price, date)
+- `customers.csv` — (customer_id, name, city, other fields)
+
+## Files
+- `AquaFizz_Dashboard.xlsx` — the interactive Excel workbook + dashboards.
+- `data/` — CSV versions of the above data for reproducibility.
+- `report_video.mp4` — short explanatory video walking through the dashboard (optional).
+- `README.md`
+
+## What I did
+- Checked employee compliance with benchmark hours (per-day/per-month).
+- Calculated profit per sale and identified highest profit-margin beverages.
+- Top customers and cities by revenue.
+- Monthly profit trends & visualization.
+- Final dashboard exported in Excel, plus a video explanation.
+
+## How to view
+- Open `AquaFizz_Dashboard.xlsx` in Excel (2016+ recommended).
+- If any macros are used, enable macros (only if you trust the file).
+- Use the dashboard tabs and slicers to filter by date / beverage / city.
+
+## Notes
+- `data/` contains sample CSVs — raw data with PII must not be uploaded publicly. If real data is sensitive, replace with anonymized samples or host privately.
